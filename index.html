@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="JL Jardin — Conception et réalisation de jardins sur-mesure, esthétiques et durables." />
+<title>JL Jardin — Paysagiste sur-mesure</title>
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <div class="loader__logo">
+      <img src="logo.png" alt="JL Jardin" />
+    </div>
+    <div class="loader__bar"><div class="loader__bar-fill" id="loaderBar"></div></div>
+    <div class="loader__count" id="loaderCount">00</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="header__logo">
+      <img src="logo.png" alt="JL Jardin" />
+    </a>
+    <nav class="nav">
+      <a href="#top" class="nav__link">Accueil</a>
+      <a href="#about" class="nav__link">À propos</a>
+      <a href="#services" class="nav__link">Services</a>
+      <a href="#work" class="nav__link">Réalisations</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--ghost header__cta">Demander un devis</a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#top">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#work">Réalisations</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn--dark">Demander un devis</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__bg" style="background-image:url('hero.jpg');"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <div class="hero__meta reveal">
+      <span class="hero__line"></span>
+      <span>Paysagiste — depuis 2008</span>
+    </div>
+    <h1 class="hero__title">
+      <span class="reveal-line"><span>Créons vos</span></span>
+      <span class="reveal-line"><span><em>espaces naturels.</em></span></span>
+    </h1>
+    <p class="hero__subtitle reveal">
+      Conception et réalisation de jardins sur-mesure,<br />esthétiques et durables.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="#work" class="btn btn--light">
+        <span>Découvrir nos réalisations</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#contact" class="btn-text">Nous contacter</a>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+  <div class="hero__index">
+    <span>01</span><span>—</span><span>Maison & Jardin</span>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee__track">
+    <span>Conception paysagère</span><span>·</span>
+    <span>Aménagement</span><span>·</span>
+    <span>Entretien</span><span>·</span>
+    <span>Terrasses</span><span>·</span>
+    <span>Piscines végétales</span><span>·</span>
+    <span>Éclairage extérieur</span><span>·</span>
+    <span>Conception paysagère</span><span>·</span>
+    <span>Aménagement</span><span>·</span>
+    <span>Entretien</span><span>·</span>
+    <span>Terrasses</span><span>·</span>
+    <span>Piscines végétales</span><span>·</span>
+    <span>Éclairage extérieur</span><span>·</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about__grid">
+    <div class="about__media reveal-up">
+      <img src="hero.jpg" alt="JL Jardin atelier" />
+      <div class="about__badge">
+        <div><strong>15+</strong><span>ans d'expérience</span></div>
+      </div>
+    </div>
+    <div class="about__text">
+      <span class="eyebrow reveal-up">À propos — 02</span>
+      <h2 class="h2 reveal-up">
+        L'art de composer<br />avec le <em>vivant</em>.
+      </h2>
+      <p class="reveal-up">
+        Chez JL Jardin, chaque projet débute par une écoute. Nous concevons des espaces extérieurs qui respirent, où la matière brute, la lumière et le végétal s'accordent avec l'architecture existante.
+      </p>
+      <p class="reveal-up">
+        Notre approche est artisanale, exigeante et profondément respectueuse du lieu. Du croquis initial à l'entretien des saisons, nous accompagnons nos clients dans la durée.
+      </p>
+      <ul class="about__list reveal-up">
+        <li><span>01</span> Approche sur-mesure</li>
+        <li><span>02</span> Matériaux nobles & locaux</li>
+        <li><span>03</span> Suivi à long terme</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow reveal-up">Services — 03</span>
+      <h2 class="h2 reveal-up">Notre <em>savoir-faire</em>.</h2>
+    </div>
+    <div class="services__grid">
+      <article class="service reveal-up">
+        <div class="service__num">01</div>
+        <div class="service__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1"><path d="M24 6v36M6 24h36M10 10l28 28M38 10L10 38"/></svg>
+        </div>
+        <h3>Conception sur-mesure</h3>
+        <p>Plans paysagers, perspectives 3D et sélection végétale adaptés à votre lieu, votre style et vos usages.</p>
+        <a href="#contact" class="service__link">En savoir plus →</a>
+      </article>
+      <article class="service reveal-up">
+        <div class="service__num">02</div>
+        <div class="service__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1"><path d="M24 4c-8 8-8 20 0 28 8-8 8-20 0-28zM24 32v12M14 44h20"/></svg>
+        </div>
+        <h3>Aménagement extérieur</h3>
+        <p>Terrasses, allées, murets, bassins, éclairage et plantations — réalisés avec des matériaux nobles et durables.</p>
+        <a href="#contact" class="service__link">En savoir plus →</a>
+      </article>
+      <article class="service reveal-up">
+        <div class="service__num">03</div>
+        <div class="service__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1"><circle cx="24" cy="24" r="18"/><path d="M24 6v36M6 24h36"/></svg>
+        </div>
+        <h3>Entretien & suivi</h3>
+        <p>Contrats d'entretien saisonniers pour préserver la beauté et la santé de votre jardin au fil des années.</p>
+        <a href="#contact" class="service__link">En savoir plus →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="section-head section-head--row">
+      <div>
+        <span class="eyebrow reveal-up">Réalisations — 04</span>
+        <h2 class="h2 reveal-up">Projets <em>récents</em>.</h2>
+      </div>
+      <p class="reveal-up section-head__lead">Une sélection de jardins, terrasses et espaces extérieurs conçus en France et à l'international.</p>
+    </div>
+
+    <div class="work__grid">
+      <a href="#" class="work__item work__item--tall reveal-up">
+        <div class="work__img" style="background-image:url('hero.jpg');"></div>
+        <div class="work__info">
+          <div class="work__cat">Résidentiel</div>
+          <div class="work__title">Villa Provence</div>
+          <div class="work__year">2025</div>
+        </div>
+      </a>
+      <a href="#" class="work__item reveal-up">
+        <div class="work__img" style="background-image:url('hero.jpg');"></div>
+        <div class="work__info">
+          <div class="work__cat">Terrasse</div>
+          <div class="work__title">Maison Lac</div>
+          <div class="work__year">2024</div>
+        </div>
+      </a>
+      <a href="#" class="work__item reveal-up">
+        <div class="work__img" style="background-image:url('hero.jpg');"></div>
+        <div class="work__info">
+          <div class="work__cat">Jardin</div>
+          <div class="work__title">Domaine des Pins</div>
+          <div class="work__year">2024</div>
+        </div>
+      </a>
+      <a href="#" class="work__item work__item--wide reveal-up">
+        <div class="work__img" style="background-image:url('hero.jpg');"></div>
+        <div class="work__info">
+          <div class="work__cat">Hôtellerie</div>
+          <div class="work__title">Mas du Sud</div>
+          <div class="work__year">2023</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="work__cta reveal-up">
+      <a href="#contact" class="btn-text btn-text--dark">Voir tous les projets →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container contact__inner">
+    <span class="eyebrow eyebrow--light reveal-up">Contact — 05</span>
+    <h2 class="contact__title reveal-up">
+      Parlons de<br /><em>votre projet.</em>
+    </h2>
+    <p class="contact__lead reveal-up">
+      Que vous ayez un terrain à transformer, une terrasse à repenser ou un jardin à entretenir, nous sommes à votre écoute.
+    </p>
+    <div class="contact__actions reveal-up">
+      <a href="mailto:contact@jljardin.fr" class="btn btn--light">Demander un devis</a>
+      <a href="tel:+33000000000" class="btn-text btn-text--light">+33 0 00 00 00 00</a>
+    </div>
+    <div class="contact__grid reveal-up">
+      <div>
+        <span>Atelier</span>
+        <p>12 chemin des Cyprès<br />13100 Aix-en-Provence</p>
+      </div>
+      <div>
+        <span>Email</span>
+        <p>contact@jljardin.fr</p>
+      </div>
+      <div>
+        <span>Horaires</span>
+        <p>Lun–Ven · 9h — 18h<br />Sur rendez-vous</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__top">
+      <a href="#top" class="footer__logo"><img src="logo.png" alt="JL Jardin" /></a>
+      <nav class="footer__nav">
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#work">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 JL Jardin · Paysagiste</span>
+      <div>
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+      </div>
+      <span class="footer__credit">Créé par <a href="#">noanweb</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
